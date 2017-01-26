@@ -1,0 +1,91 @@
+body {
+	height: 868px;
+	min-width: 832px;
+	overflow: hidden;
+	position: relative;
+	background: url(images/snow.jpg) repeat-none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: top;
+}
+
+/*@media only screen and (min-width: 1440px) {
+	background: url(images/snow.jpg) no-repeat center center fixed;
+
+}*/
+
+select {
+	display: block;
+	margin: 70px auto 10px auto;
+	height: 50px;
+	width: 300px;
+	font-size: 2.1em;
+	font-family: "pragati narrow", sans-serif;
+	background: rbg(255, 255, 255)
+	background: rbga(255,255,255,.5)
+}
+
+.form-control {
+	width: 400px;
+	height: 50px;
+	font-size: 2em;
+}
+
+h1 {
+	font-family: Oxygen, sans-serif;
+	font-size: 4.6em;
+}
+
+.center-data {
+	display: block;
+	margin: 0px auto;
+	font-size: 4.5em;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.data {
+	margin: 60px auto;
+}
+
+.btn {
+	width: 200px;
+	background: transparent;
+	border: 3px solid #555;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	color: #333;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: 0px 20px;
+}
+
+.btn:hover {
+	color: #70112D;
+	background: transparent;
+	border: 3px solid #70112D;
+}
+
+.btn:active {
+	position: relative;
+}
+
+#city {
+	font-size: 1.7em;
+	color: #555;
+}
+
+#windSpeed {
+	color: #333;
+}
+
+a {
+	color: #333;
+	font-weight: bold;
+}
+
+
+

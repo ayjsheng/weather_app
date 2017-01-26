@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Weather</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oxygen|Pragati+Narrow" rel="stylesheet">
+<body>
+  <div class="container">
+  <div class="text-center">
+    <h1>Check Your Current Weather</h1>
+
+
+<select class="form-control">
+  <option value="6173331">Vancouver</option>
+  <option value="6167865">Toronto</option>
+  <option value="6077243">Montreal</option>
+  <option value="5809844">Seattle</option>
+  <option value="5368361">Los Angeles</option>
+  <option value="5128581">New York</option>
+  <option value="4887398">Chicago</option>
+  <option value="4930956">Boston</option>
+</select>
+
+<div class="center-data">
+    <p id="city"></p>
+    <p id="weatherType"></p>
+    <p class="btn btn-default" id="celsius"></p>
+    <p id="windSpeed"></p>
+</div>
+<div class="data">
+<p>Created & Built by <a href="http://anniesheng.ca">Annie Sheng</a> &copy; 2016. Data from <a href="http://openweathermap.org/">Open Weather Map</a> API.</p>
+</div>
+</div>
+
+<!--==========SCRIPT =============-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
