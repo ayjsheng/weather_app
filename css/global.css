@@ -18,13 +18,18 @@ body {
 
 select {
 	display: block;
-	margin: 70px auto 10px auto;
+	margin: 10px auto 0 auto;
 	height: 50px;
 	width: 300px;
 	font-size: 2.1em;
 	font-family: "pragati narrow", sans-serif;
 	background: rbg(255, 255, 255)
 	background: rbga(255,255,255,.5)
+}
+
+p {
+	font-family: oxygen, sans-serif;
+	text-align: center;
 }
 
 .form-control {
@@ -35,18 +40,20 @@ select {
 
 h1 {
 	font-family: Oxygen, sans-serif;
-	font-size: 4.6em;
+	font-size: 3.6em;
+	text-align: center;
 }
 
 .center-data {
 	display: block;
 	margin: 0px auto;
-	font-size: 4.5em;
+	font-size: 2.5em;
+	text-align: center;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
 .data {
-	margin: 60px auto;
+	margin: 0px auto;
 }
 
 .btn {
@@ -74,8 +81,9 @@ h1 {
 }
 
 #city {
-	font-size: 1.7em;
+	font-size: 1.1em;
 	color: #555;
+	text-align: center;
 }
 
 #windSpeed {
